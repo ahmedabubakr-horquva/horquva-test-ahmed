@@ -1,0 +1,30 @@
+[
+  {
+    "id": "wf-001",
+    "name": "Daily Reality Report",
+    "active": true,
+    "nodes": [
+      { "name": "Schedule", "type": "n8n-nodes-base.scheduleTrigger" },
+      { "name": "Post to Slack", "type": "n8n-nodes-base.slack", "credentials": { "slackApi": { "id": "c1", "name": "Slack ops" } } }
+    ]
+  },
+  {
+    "id": "wf-002",
+    "name": "GitHub Issue Sync",
+    "active": true,
+    "nodes": [
+      { "name": "Webhook", "type": "n8n-nodes-base.webhook" },
+      { "name": "GitHub", "type": "n8n-nodes-base.github", "credentials": { "githubApi": { "id": "c2", "name": "GitHub bot" } } },
+      { "name": "Jira", "type": "n8n-nodes-base.jira", "credentials": { "jiraApi": { "id": "c3", "name": "Jira svc" } } }
+    ]
+  },
+  {
+    "id": "wf-003",
+    "name": "Weekly Review Reminder",
+    "active": false,
+    "nodes": [
+      { "name": "Schedule", "type": "n8n-nodes-base.scheduleTrigger" },
+      { "name": "Post to Slack", "type": "n8n-nodes-base.slack" }
+    ]
+  }
+]
