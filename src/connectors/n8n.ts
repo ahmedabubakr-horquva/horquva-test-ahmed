@@ -91,6 +91,17 @@ export class N8nConnector extends BaseConnector<N8nWorkflow> {
     return res.data.data as N8nExecution[];
   }
 
+  /** Error message of one failed execution (needs includeData). Used by the watchdog. */
+  async fetchExecutionError(id: string): Promise<string> {
+    if (this.mock) return 'mock error';
+    const res = await this.withRetry(() =>
+      this.client().get(`/api/v1/executions/${id}`, { params: { includeData: true } })
+    );
+    const err = res.data?.data?.resultData?.error;
+    const msg = err?.message ?? err?.description ?? 'No error message available';
+    return String(msg).slice(0, 500);
+  }
+
   normalize(wf: N8nWorkflow): CanonicalEntity {
     return {
       type: 'WORKFLOW',

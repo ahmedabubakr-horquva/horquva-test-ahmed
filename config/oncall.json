@@ -1,0 +1,21 @@
+{
+  "rotationStart": "2026-10-05",
+  "people": [
+    { "name": "Muhammad Sohaib Adnan", "start": "2026-10-05", "stop": "2026-10-10" },
+    { "name": "Hanain Iftikhar", "start": "2026-10-05", "stop": "2026-10-10" },
+    { "name": "Muhammad Ali Naeem", "start": "2026-10-05", "stop": "2026-10-10" },
+    { "name": "Muhammad Anas", "start": "2026-10-05", "stop": "2026-10-10" },
+    { "name": "Tayyaba Zia", "start": "2026-10-05", "stop": "2026-10-10" },
+    { "name": "Muhammad Umair Asif", "start": "2026-10-05", "stop": "2026-10-10" },
+    { "name": "Mohammad Abu Obaida", "start": "2026-10-05", "stop": "2026-10-15" },
+    { "name": "Taimour Mushtaq", "start": "2026-10-05", "stop": "2026-10-15" },
+    { "name": "Saba Maryam", "start": "2026-10-05", "stop": "2026-10-15" },
+    { "name": "Maheen Saghir", "start": "2026-10-05", "stop": "2026-10-15" },
+    { "name": "Usman Faraz", "start": "2026-10-05", "stop": "2026-10-15" },
+    { "name": "Ahmed Abubakr", "start": "2026-10-05", "stop": "2026-10-20" },
+    { "name": "Halima Maryam", "start": "2026-10-05", "stop": "2026-10-20" },
+    { "name": "Tooba Ghaffar", "start": "2026-10-05", "stop": "2026-10-20" },
+    { "name": "Affan Ahmed Khan", "start": "2026-10-25", "stop": "2026-10-30" },
+    { "name": "Sumavia Abid", "start": "2026-10-05", "stop": "2026-10-30" }
+  ]
+}

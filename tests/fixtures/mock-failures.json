@@ -1,0 +1,5 @@
+[
+  { "executionId": "9001", "workflowId": "wf-001", "failedAt": "2026-10-17T09:00:00.000Z", "error": "Slack: channel_not_found (simulated)" },
+  { "executionId": "9002", "workflowId": "wf-002", "failedAt": "2026-10-17T09:05:00.000Z", "error": "GitHub: 401 Bad credentials (simulated)" },
+  { "executionId": "9003", "workflowId": "wf-003", "failedAt": "2026-10-17T09:10:00.000Z", "error": "Jira: request timed out (simulated)" }
+]
