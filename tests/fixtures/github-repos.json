@@ -1,0 +1,5 @@
+[
+  {"id":1001,"name":"horquva-core","fullName":"horquva-test/horquva-core","private":true,"archived":false,"pushedAt":"2026-10-15T10:00:00Z","collaboratorsAccessible":true,"teams":["engineering","security"],"collaborators":[{"login":"natasha-khan-dev","id":11,"role":"admin"},{"login":"ahmedabubakr-horquva","id":12,"role":"write"},{"login":"unknown-contractor","id":13,"role":"read"}]},
+  {"id":1002,"name":"horquva-web","fullName":"horquva-test/horquva-web","private":false,"archived":false,"pushedAt":"2026-10-14T09:00:00Z","collaboratorsAccessible":true,"teams":["engineering"],"collaborators":[{"login":"ahmedabubakr-horquva","id":12,"role":"maintain"},{"login":"unknown-contractor","id":13,"role":"triage"}]},
+  {"id":1003,"name":"legacy-scripts","fullName":"horquva-test/legacy-scripts","private":true,"archived":true,"collaboratorsAccessible":false,"teams":[],"collaborators":[]}
+]
